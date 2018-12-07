@@ -1,0 +1,128 @@
+/* css for responsive layout*/
+/* For larger devices*/
+@media(min-width: 1200px){
+	/* all ok*/
+}
+
+/* For medium devices like tablets and medium desktops*/
+@media(min-width: 992px) and (max-width: 1199px){
+
+	.navbar{
+		background-color: rgba(0,0,0,0.7);
+		padding: 1px;
+	}
+
+	.navbar-nav{
+		float: left;
+	}	
+
+	.vesco-nav-wrapper{
+		padding: 0;
+	}
+}
+
+/* For small devices like tablets and small desktops*/
+@media(min-width: 768px) and (max-width: 991px){
+
+	.navbar{
+		background-color: rgba(0,0,0,0.7);
+		padding: 1px;
+	}
+
+	.navbar-nav{
+		float: left;
+	}	
+
+	.vesco-nav-wrapper{
+		padding: 0;
+	}
+
+	#about-bg-diagonal{
+		border-left: 0;
+		border-top: 0;
+		width: 100%;
+		height: 350px;
+	}
+
+	#about-content-box{
+		width: 100%;
+		height: 350px;
+	}
+
+	.stats-item{
+		padding: 0;
+	}
+
+	#footer-copyright{
+		text-align: center;
+	}
+
+}
+
+/* For very devices like landscape phones and portrai tablets*/
+@media(max-width: 767px){
+
+	.navbar{
+		background-color: rgba(0,0,0,0.7);
+		padding: 1px;
+	}
+
+	.navbar-nav{
+		float: left;
+	}	
+
+	.vesco-nav-wrapper{
+		padding: 0;
+	}
+
+	#home-heading h3{
+		font-size: 20px;
+	}
+
+	.btn-general{
+		padding: 9px 14px;
+   		font-size: 15px;
+	}
+
+	#about-bg-diagonal{
+		border-left: 0;
+		border-top: 0;
+		width: 100%;
+		height: 350px;
+	}
+
+	#about-content-box{
+		width: 100%;
+		height: 350px;
+	}
+
+	.stats-item{
+		padding: 0;
+	}
+
+	#footer-copyright{
+		text-align: center;
+	}
+
+	.testemonials blockquote{
+		padding: 8px 40px;
+	}
+
+	.testemonials blockquote p{
+		font-size: 15px;
+	}
+
+	.testemonials blockquote:before{
+		left: 10px;
+	}
+
+	.testemonials blockquote:after{
+		right: 10px;
+	}
+
+}
+
+/* For small mobile phones*/
+@media(max-width: 480px){
+
+}
